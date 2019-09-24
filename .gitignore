@@ -138,3 +138,6 @@ sketch
 *.css.map
 *.sass.map
 *.scss.map
+
+### Webpack dist folder ###
+/dist

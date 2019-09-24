@@ -10,12 +10,12 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.(js|jsx)$/,
+				test: /\.jsx?$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader'
 			},
 			{
-				test: /\.s[ac]ss$/i,
+				test: /\.(sa|sc|c)ss$/, // s?[ac]ss => matches .ass files :)
 				use: [ MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader' ]
 			}
 		]

@@ -10,7 +10,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<p>React-ing: check out the repo</p>
+				<p id="test">React-ing: check out the repo</p>
 				<a href={this.state.url}>github.com/react-webpack</a>
 			</div>
 		);

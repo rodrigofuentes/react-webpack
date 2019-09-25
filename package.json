@@ -10,7 +10,7 @@
 		"build": "webpack --mode production",
 		"dist:clean": "rimraf ./dist/*"
 	},
-	"keywords": [],
+	"keywords": [ "react", "webpack", "sass", "boilerplate" ],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {

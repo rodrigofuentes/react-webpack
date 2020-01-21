@@ -1,7 +1,9 @@
 // install react snippets in vscode
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './app.js';
-import styles from './main.scss';
+import { render } from 'react-dom';
+import App from './components/App';
+import styles from './styles/main.scss';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+const el = document.getElementById('app');
+
+render(<App url="https://github.com/rodrigofuentes/react-webpack" />, el);

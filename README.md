@@ -7,3 +7,6 @@ To install use: `npm i`
 - Added TailwindCSS + Styled Components
 - Fixed project structure
 - Changed from class component to function component
+
+
+test
